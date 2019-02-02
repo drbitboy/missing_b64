@@ -1,6 +1,6 @@
 # Implement robust-to-missing-characters Base64 decoding with the standard 64 place-values: A-Z; a-z; 0-9; +; /.
 
-## N.B. This is only robust in the sense that the method will return a decoded string; the missing characters in the input data mean those returned data may have little relation to the data that were originally encoded. 
+## N.B. This is only robust in the sense that the method will return a decoded string and not throw an un-caught exception in any case of missing characters; the missing characters in the input data mean those returned data may have little relation to the data that were originally encoded
 
 Method missing_b64.b64decode(...) is wrappper for base64.b64decode
 
