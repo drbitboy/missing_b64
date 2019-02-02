@@ -6,15 +6,15 @@ Application:  Python 3; may work in Python 2.7 as-is or with fiddling
 
 Usage in scripts:
 
-  from missing_base64 import b64decode
-  decoded_data = b64decode(ascii_string)
-  decoded_data = b64decode(ascii_bytes)
+    from missing_base64 import b64decode
+    decoded_data = b64decode(ascii_string)
+    decoded_data = b64decode(ascii_bytes)
 
 Testing (BASH shown):  
 
-  [DEBUG=] python missing_base64.py
+    [DEBUG=] python missing_base64.py
 
-  Expected output:
+Expected output:
 
     {'tries': 260, 'successes': 260, 'failures': 0}
 
